@@ -1,0 +1,77 @@
+.bookingForm {
+background-color: black;
+opacity: 0.6;
+margin-left: 200px;
+margin-right: 200px;
+
+
+}
+
+.flex {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+  }
+
+  .menu {
+    color: rgb(255, 249, 249);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 100px;
+  /* // justify-content: space-around; */
+}
+
+
+.button1  {
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.formInput {
+  width: 40%;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+
+}
+input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: #000;
+  
+}
+
+
+
+

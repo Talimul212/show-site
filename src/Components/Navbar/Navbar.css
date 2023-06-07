@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(203, 233, 233);
+  border: 1px solid rgb(194, 194, 194);
+  width: 100%;
+  height: 70px;
+}
+.flex {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+.barlink {
+    margin-top: 8px;
+    font-size: 20px;
+color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
