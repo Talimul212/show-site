@@ -5,7 +5,7 @@ const Navber = () => {
   return (
     <div className="navbar">
       <img style={{width:"120px",marginBottom:"-40px",paddingLeft:"10px"}} src="https://static.tvmaze.com/images/tvm-header-logo.png" alt="" />
-      <div className=" flex">
+      <div className="justify">
         <Link to='/' className="barlink">Home</Link>
         <Link to='/' className="barlink">About</Link>
         <Link to='/' className="barlink">All Show</Link>
